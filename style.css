@@ -1,0 +1,92 @@
+body{
+    background: url(Image/background_image.jpg) no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    border: 2px solid;
+    
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(163, 85, 32); 
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+h2 :hover{
+    background-color: rgb(209, 149, 109);
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+img{
+    display: block;
+    border: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+
+h3{
+    background-color: rgb(189, 114, 65);
+    border: 1px solid lightgray;
+    color: bisque;
+}
+
+h4{
+    background-color: rgb(189, 114, 65);
+    border: 1px solid lightgray;
+    color: bisque;
+}
+
+h3, h4{
+    text-align: left;
+    margin-bottom: 25px;
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+    margin-bottom: 50px;
+}
+
+table{
+    width: 100%;
+    border: 2px solid rgb(31, 31, 31);
+    border-collapse: collapse;
+    font-family: Arial;
+}
+th, td{
+    border: 2px solid rgb(31, 31, 31);
+    padding: 8px;
+}
+th{
+    background-color: rgb(189, 114, 65);
+}
+a{
+    display: block;
+    color: black;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul{
+    text-align: left;
+}
+.expertise .my-expertise{
+    list-style: square;
+}
